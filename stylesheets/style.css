@@ -331,7 +331,6 @@ footer {
   height: auto;
   max-width: 100%;
   width: auto;
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -432,10 +431,6 @@ div > iframe {
 }
 
 @media (max-width: 920px) {
-  #river-banner-diagram {
-    padding-top: 0px;
-  }
-
   section {
     padding: 100px 15%;
   }
