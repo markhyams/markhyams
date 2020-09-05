@@ -1,4 +1,4 @@
-@import url('whitespace-reset.css');
+@import url("whitespace-reset.css");
 
 /* ---------------------------------
 
@@ -6,20 +6,20 @@
 
 ------------------------------------ */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap");
 
 @font-face {
-  font-family: 'Founders Grotesk';
+  font-family: "Founders Grotesk";
   /* src: url('/fonts/FoundersGrotesk-Semibold.otf') format('opentype'); */
-  src: url('../fonts/FoundersGrotesk-Semibold.otf') format('opentype');
+  src: url("../fonts/FoundersGrotesk-Semibold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Founders Grotesk';
+  font-family: "Founders Grotesk";
   /* src: url('/fonts/FoundersGrotesk-SemiboldItalic.otf') format('opentype'); */
-  src: url('../fonts/FoundersGrotesk-SemiboldItalic.otf') format('opentype');
+  src: url("../fonts/FoundersGrotesk-SemiboldItalic.otf") format("opentype");
   font-weight: bold;
   font-style: italic;
 }
@@ -31,12 +31,12 @@
 ------------------------------------ */
 
 :root {
-  --font-family-header: 'Founders Grotesk', sans-serif;
-  --font-family-body: 'Raleway', sans-serif;
+  --font-family-header: "Founders Grotesk", sans-serif;
+  --font-family-body: "Raleway", sans-serif;
   --color-black: #000000;
-  --color-turquoise: #65c8d0;
-  --color-lightgreen: #92d065;
-  --color-lightgray: #dee3e2;
+  --color-turquoise: #0779e4;
+  --color-lightgreen: #28c9ae;
+  --color-lightgray: #faf3dd;
   --color-offwhite: #f7f7f7;
 }
 
@@ -178,7 +178,7 @@ p {
   margin-bottom: 15px;
 }
 
-a.apex {
+a.river {
   color: var(--color-turquoise);
   font-weight: bold;
 }
@@ -284,74 +284,76 @@ footer {
 
 /* ---------------------------------
 
-               #apex
+               #river
 
 ------------------------------------ */
 
-#apex {
+#river {
   background-color: var(--color-lightgray);
 }
 
-#apex-title-container,
-#apex-video-container {
+#river-title-container,
+#river-video-container {
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
 }
 
-#apex-logo {
+#river-logo {
   display: inline-block;
   width: 100%;
-  max-width: 300px;
+  max-width: 450px;
   min-width: 200px;
 }
 
-#apex h2 {
+#river h2 {
   display: inline-block;
 }
 
-#apex-info-container,
-#apex-video-container {
+#river-info-container,
+#river-video-container {
   margin-top: 75px;
 }
 
-#apex-info-container > div,
-#apex-video-container > div {
+#river-info-container > div,
+#river-video-container > div {
   width: 50%;
 }
 
-#apex-info-container > div:first-of-type,
-#apex-video-container > div:first-of-type {
+#river-info-container > div:first-of-type,
+#river-video-container > div:first-of-type {
   margin-right: 2.5%;
 }
 
-#query-logs-gif {
+#river-banner-diagram {
   border-radius: 5px;
-  box-shadow: 0 0 25px silver;
+  /* box-shadow: 0 0 25px silver; */
   height: auto;
   max-width: 100%;
   width: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 div > iframe {
   max-width: 100%;
 }
 
-#apex-info-container > div:last-of-type,
-#apex-video-container > div:last-of-type {
+#river-info-container > div:last-of-type,
+#river-video-container > div:last-of-type {
   margin-left: 2.5%;
 }
 
-#apex-video-container div:last-of-type > p {
+#river-video-container div:last-of-type > p {
   width: 75%;
 }
 
-#apex p:first-of-type {
+#river p:first-of-type {
   position: relative;
   top: -0.5rem;
 }
 
-#apex-repo-btn {
+#river-repo-btn {
   box-shadow: 0 0 25px silver;
   font-weight: bold;
   height: 40px;
@@ -430,6 +432,10 @@ div > iframe {
 }
 
 @media (max-width: 920px) {
+  #river-banner-diagram {
+    padding-top: 0px;
+  }
+
   section {
     padding: 100px 15%;
   }
@@ -459,26 +465,26 @@ div > iframe {
     width: 50px;
   }
 
-  #apex-info-container,
-  #apex-video-container {
+  #river-info-container,
+  #river-video-container {
     -ms-align-items: center;
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
   }
 
-  #apex-info-container > div:first-of-type,
-  #apex-video-container > div:first-of-type {
+  #river-info-container > div:first-of-type,
+  #river-video-container > div:first-of-type {
     margin-right: 0;
   }
 
-  #apex-info-container > div:last-of-type,
-  #apex-video-container > div:last-of-type {
+  #river-info-container > div:last-of-type,
+  #river-video-container > div:last-of-type {
     margin-left: 0;
   }
 
-  #apex-info-container > div,
-  #apex-video-container > div {
+  #river-info-container > div,
+  #river-video-container > div {
     width: 90%;
   }
 
@@ -497,18 +503,18 @@ div > iframe {
 }
 
 @media (max-width: 690px) {
-  #apex-logo {
+  #river-logo {
     margin-bottom: 25px;
     width: 75px;
   }
 
-  #apex-title-container {
+  #river-title-container {
     -ms-align-items: center;
     align-items: center;
     flex-direction: column;
   }
 
-  #apex-logo {
+  #river-logo {
     margin-right: 0;
   }
 }
@@ -531,11 +537,11 @@ div > iframe {
     padding: 65px 15%;
   }
 
-  #apex-info-container {
+  #river-info-container {
     margin-top: 25px;
   }
 
-  #apex-repo-btn {
+  #river-repo-btn {
     align-self: center;
   }
 
@@ -545,11 +551,11 @@ div > iframe {
 }
 
 @media (max-width: 465px) {
-  #apex-info-container > div {
+  #river-info-container > div {
     width: 100%;
   }
 
-  #apex-logo {
+  #river-logo {
     width: 60px;
   }
 
@@ -579,7 +585,7 @@ div > iframe {
     font-size: 1.2rem;
   }
 
-  #apex-repo-btn {
+  #river-repo-btn {
     font-size: 18px;
     width: 180px;
   }

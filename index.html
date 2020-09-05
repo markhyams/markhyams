@@ -2,91 +2,137 @@
 <html lang="en-US">
   <head>
     <meta name="generator" content="Hugo 0.64.1" />
-    <title>Kelvin Wong</title>
+    <title>Mark Hyams</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheets/style.css" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
     <link rel="manifest" href="favicons/site.webmanifest" />
 
-    <meta property="og:title" content="Kelvin Wong" />
-    <meta property="og:image" content="assets/images/kelvin-linkedin-feature.png" />
+    <meta property="og:title" content="Mark Hyams" />
+    <meta
+      property="og:image"
+      content="assets/images/kelvin-linkedin-feature.png"
+    />
     <meta
       property="og:description"
-      content="Full-stack Software Engineer based in London, UK, with experience in Ruby, JavaScript / Node.js, Golang, PostgreSQL, Docker, AWS, Rails, and React."
+      content="Full-stack Software Engineer based in Portland, Oregon and Albuquerque, New Mexico with experience in Ruby, JavaScript / Node.js, PostgreSQL, Docker, AWS, Rails, and React."
     />
     <meta property="og:url" content="kelvinjhwong.com" />
   </head>
 
   <body>
     <div class="logo-links">
-      <a href="https://github.com/kelvinjhwong" target="_blank">
-        <img class="icon" src="assets/icons/github.svg" alt="github logo" id="github-logo" />
+      <a href="https://github.com/markhyams" target="_blank">
+        <img
+          class="icon"
+          src="assets/icons/github.svg"
+          alt="github logo"
+          id="github-logo"
+        />
       </a>
 
       <a href="assets/kelvin-wong.pdf" target="_blank">
-        <img class="icon" src="assets/icons/resume.svg" alt="link to resume" id="resume-logo" />
+        <img
+          class="icon"
+          src="assets/icons/resume.svg"
+          alt="link to resume"
+          id="resume-logo"
+        />
       </a>
 
-      <a href="https://www.linkedin.com/in/kjhwong/" target="_blank">
-        <img class="icon" src="assets/icons/linkedin.svg" alt="LinkedIn link" id="linkedin-logo" />
+      <a href="https://www.linkedin.com/in/mark-hyams/" target="_blank">
+        <img
+          class="icon"
+          src="assets/icons/linkedin.svg"
+          alt="LinkedIn link"
+          id="linkedin-logo"
+        />
       </a>
     </div>
 
     <main>
       <section id="intro" class="flexbox horz-center">
-        <img id="avatar" src="assets/images/kelvin.jpg" alt="Photo of Kelvin Wong" />
-        <h2 id="name">Kelvin Wong</h2>
+        <img
+          id="avatar"
+          src="assets/images/mark_hyams_avatar_460x460.jpg"
+          alt="Photo of Mark Hyams"
+        />
+        <h2 id="name">Mark Hyams</h2>
         <p>
-          I'm a full-stack Software Engineer based in London, UK, with experience in Ruby,
-          JavaScript / Node.js, Golang, PostgreSQL, Docker, AWS, Rails, and React.
+          I'm a full-stack Software Engineer based in Portland, Oregon and
+          Albuquerque, New Mexico, with experience in Ruby, JavaScript/Node.js,
+          PostgreSQL, Docker, AWS, Rails, and React.
         </p>
 
         <p>
           Most recently, I built
-          <a class="apex" href="https://apex-api-proxy.github.io" target="_blank">Apex</a>, an API
-          proxy for microservices that provides one place to log and control all service-to-service
-          traffic.
+          <a class="river" href="https://river-live.github.io" target="_blank"
+            >River</a
+          >, a drop-in real-time service for web applications that is easy to
+          deploy and ready to scale.
         </p>
       </section>
 
-      <section id="apex" class="flexbox horz-center">
-        <div id="apex-title-container" class="flexbox">
-          <a href="https://apex-api-proxy.github.io" target="_blank"
-            ><img id="apex-logo" src="assets/images/apex-logo.png" alt="Apex logo"
+      <section id="river" class="flexbox horz-center">
+        <div id="river-title-container" class="flexbox">
+          <a href="https://river-live.github.io" target="_blank"
+            ><img
+              id="river-logo"
+              src="assets/images/river_logo-readme.png"
+              alt="river logo"
           /></a>
         </div>
-        <div id="apex-info-container" class="flexbox">
+        <div id="river-info-container" class="flexbox">
           <div>
             <img
-              id="query-logs-gif"
-              src="assets/images/apex-query-logs.gif"
-              alt="Querying logs by correlation-id on the Apex admin UI"
+              id="river-banner-diagram"
+              src="assets/images/river-banner-diagram.png"
+              alt="Querying logs by correlation-id on the river admin UI"
             />
           </div>
           <div class="flexbox horz-center">
             <p>
-              <a class="apex" href="https://apex-api-proxy.github.io" target="_blank">Apex</a> is an
-              API proxy for microservices that provides one place to log and control
-              service-to-service traffic.
+              <a
+                class="river"
+                href="https://river-live.github.io"
+                target="_blank"
+                >River</a
+              >
+              is a drop-in real-time service for web applications that is easy
+              to deploy and ready to scale.
             </p>
 
             <p>
-              With Apex, a user can view the logs for all service-to-service traffic by querying
-              just one table, while grouping all requests and responses that belong to the same
-              workflow. They can also define and update traffic rules, such as the number of times
-              to retry a request, in one configuration store.
+              River abstracts away the complexity of setting up a resilient
+              infrastructure and removes the hassle of managing WebSocket
+              connections. It allows backend services to publish events and
+              makes these events available to web clients in real-time.
             </p>
 
             <a
-              id="apex-repo-btn"
+              id="river-repo-btn"
               class="btn"
               target="_blank"
-              href="https://apex-api-proxy.github.io"
-              >READ THE APEX CASE STUDY</a
+              href="https://river-live.github.io"
+              >READ THE RIVER CASE STUDY</a
             >
           </div>
         </div>
@@ -96,26 +142,36 @@
         <h2>Other projects</h2>
         <ul class="flexbox vert-center">
           <li>
-            <img src="assets/images/rello.png" alt="Screenshot of rello application" />
-            <h4>Rello</h4>
+            <img
+              src="assets/images/rello.png"
+              alt="Screenshot of rello application"
+            />
+            <h4>Mello</h4>
             <p>
-              Trello-like Kanban board with back-end API built with Rails, and front-end UI built
-              with React + Redux
+              Trello-like collaboration board with back-end API built with
+              Rails, and front-end UI built with React + Redux
             </p>
           </li>
           <li>
-            <img src="assets/images/post-it.png" alt="Screenshot of post-it application" />
-            <h4>Post It</h4>
+            <img
+              src="assets/images/tickets-app.png"
+              alt="Screenshot of tickets app application"
+            />
+            <h4>Pro-Tix</h4>
             <p>
-              Reddit-like social news and discussion app built with Rails
+              Project ticket-tracking app built with Rails. User-login,
+              comments, tags, tickets and projects.
             </p>
           </li>
           <li>
-            <img src="assets/images/todos.png" alt="Screenshot of todos application" />
+            <img
+              src="assets/images/todos.png"
+              alt="Screenshot of todos application"
+            />
             <h4>Todos</h4>
             <p>
-              To-dos tracker built with Node.js, Express.js, JavaScript, jQuery, Handlebars, HTML
-              and CSS.
+              To-dos tracker built with Node.js, Express.js, JavaScript,
+              Handlebars, HTML and CSS.
             </p>
           </li>
         </ul>
@@ -123,21 +179,33 @@
 
       <section id="contact" class="flexbox horz-center">
         <h3>Contact</h3>
-        <h4><a href="mailto:kjhwong@gmail.com">kjhwong@gmail.com</a></h4>
+        <h4><a href="mailto:markhyams@gmail.com">markhyams@gmail.com</a></h4>
         <ul class="flexbox vert-center">
           <li>
-            <a href="assets/kelvin-wong.pdf" target="_blank">
-              <img class="icon" src="assets/icons/resume.svg" alt="link for resume" />
+            <a href="assets/markhyams-resume.pdf" target="_blank">
+              <img
+                class="icon"
+                src="assets/icons/resume.svg"
+                alt="link for resume"
+              />
             </a>
           </li>
           <li>
-            <a href="https://github.com/kelvinjhwong" target="_blank">
-              <img class="icon" src="assets/icons/github.svg" alt="link to GitHub profile" />
+            <a href="https://github.com/markhyams" target="_blank">
+              <img
+                class="icon"
+                src="assets/icons/github.svg"
+                alt="link to GitHub profile"
+              />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/kjhwong/" target="_blank">
-              <img class="icon" src="assets/icons/linkedin.svg" alt="link to  LinkedIn profile" />
+            <a href="https://www.linkedin.com/in/mark-hyams" target="_blank">
+              <img
+                class="icon"
+                src="assets/icons/linkedin.svg"
+                alt="link to  LinkedIn profile"
+              />
             </a>
           </li>
         </ul>
